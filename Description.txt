@@ -1,0 +1,24 @@
+-It is a pure python application.
+-Clone the repository and run
+ -part1.py for the first part of the problem statement(20th march)
+ -part2.py for the second part (27th march)
+
+Do install the required packages before running
+
+
+FYI: I'm using 10000 trees in the ensemble learning in order to increase the score. The trees that can be used is dependent on the hardware specifications,
+There is no disadvantage in running these many trees according to the official document.
+
+Linear regression in the second part is done for each and every person present and values are updated simultaneously. Initial csv file is generated which is later utilized for the desired result.
+
+
+output_file_01.csv contains the results for part1
+output_file_02.csv contains the results for part2
+initial.csv is the intermediate file
+
+Do use the csv files that i created from excel file. 
+Test_dataset.csv is the testing file
+Train_dataset.csv is used for training RF model
+Train_dataset_part2.csv is used for training the LR model
+
+That's all
